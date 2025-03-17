@@ -1,0 +1,37 @@
+{
+  "name": "logggggoff",
+  "version": "1.0.2",
+  "description": "A CLI tool designed to help list running processes",
+  "main": "index.js",
+  "bin": {
+    "logggggoff": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRiseCollection/logg-off-plugin.git"
+  },
+  "keywords": [
+    "cli",
+    "logoff",
+    "productivity",
+    "shutdown",
+    "cross-platform"
+  ],
+  "author": "Joshua Paulsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRiseCollection/logg-off-plugin/issues"
+  },
+  "homepage": "https://github.com/TheRiseCollection/logg-off-plugin#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.4",
+    "performance-now": "^2.1.0",
+    "child_process": "latest",
+    "commander": "^9.4.1",
+    "ps-list": "^7.2.0"
+  }
+}
